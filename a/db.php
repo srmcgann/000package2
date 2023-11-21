@@ -18,20 +18,22 @@
   //$db_user  = 'id21269596_user';
   //$db_user  = 'id21284549_user';
   //$db_user  = 'id21257390_user';
-  $db_user  = 'id21552617_user';
+  //$db_user  = 'id21552617_user';
+  $db_user  = 'id21553412_user';
   $db_pass  = 'Chrome57253!*';
   $db_host  = 'localhost';
   //$db       = "id21269596_videodemos";
   //$db       = "id21284549_videodemos2";
   //$db       = "id21257390_default";
-  $db       = "id21552617_orbs2";
+  //$db       = "id21552617_orbs2";
+  $db       = "id21553412_orbs3";
   $port     = '3306';
-  $baseURL  = "http://x.cantelope.org/a";
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
+  $baseURL  = "http://x.cantelope.org/a";
   
 
   $maxResultsPerPage = 4;
-  $demoSandbox='x.cantelope.org/sandbox';
+  $demoSandbox='x.cantelope.org/a/sandbox';
   $baseAssetsURL = 'http://assets.cantelope.org';
   $baseFullURL= $baseURL;
 ?>
